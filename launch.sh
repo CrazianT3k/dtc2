@@ -20,7 +20,7 @@ chmod +x /Users/$USERNAME/.dtc2.dtc2.sh
 # create plist
 
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" >> /Users/$USERNAME/.dtc2.dtc2.plist
-echo "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http:///www.apple.com/DTDs/PropertyList-1.0.dtd\">" >> /Users/$USERNAME/.dtc2.dtc2.plist
+echo "<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http:///www.apple.com/DTDs/PropertyList-1.0.dtd\">" >> /Users/$USERNAME/.dtc2.dtc2.plist
 echo "<plist version=\"1.0\">" >> /Users/$USERNAME/.dtc2.dtc2.plist
 echo "<dict>" >> /Users/$USERNAME/.dtc2.dtc2.plist
 echo "    <key>Label</key>" >> /Users/$USERNAME/.dtc2.dtc2.plist
